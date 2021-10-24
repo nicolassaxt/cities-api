@@ -24,7 +24,7 @@ docker run --name cities-db -d -p 5432:5432 -e POSTGRES_USER=postgres_user_city 
 * [data](https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL)
 
 ```shell script
-cd ~/workspace/sql-paises-estados-cidades/PostgreSQL
+cd /workspace/sql-paises-estados-cidades/PostgreSQL
 
 docker run -it --rm --net=host -v ${PWD}:/tmp postgres /bin/bash
 
